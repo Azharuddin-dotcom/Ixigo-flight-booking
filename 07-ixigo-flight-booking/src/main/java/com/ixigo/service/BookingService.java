@@ -116,7 +116,7 @@ public class BookingService {
 			return entityOptional.get().getBookingStatus();
 		}
 		
-		return "No record found with pnr: " + pnr ;
+		return "No record found for pnr: " + pnr ;
 	}
 	
 	public List<BookingResponse> getAllTickets(int pageNumber, int pageSize) {
